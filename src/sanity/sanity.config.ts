@@ -9,7 +9,7 @@ const config = defineConfig({
     apiVersion: '2024-02-03',
     basePath: '/admin',
     useCdn: true,
-    plugins: [
+    plugins: [     
         structureTool()
     ],
      schema: {
