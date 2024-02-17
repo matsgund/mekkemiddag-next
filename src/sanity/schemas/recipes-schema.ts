@@ -1,11 +1,11 @@
 // This is the schema definition for the "recipes" collection in Sanity
-import types from './types-schema';
+import { GiCook} from "react-icons/gi";
 
 const recipes = {
     name: 'recipes',
     type: 'document',
     title: 'Recipes',
-    icon: () => '🍲',
+    icon: GiCook,
     fields: [
         {
             name: 'name',

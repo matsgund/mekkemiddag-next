@@ -1,10 +1,12 @@
 
 // This is the schema definition for the ingredients
+import { GiCarrot} from "react-icons/gi";
+
 const ingredients = {
     name: 'ingredients',
     type: 'document',
     title: 'Ingredients',
-    icon: () => '🍅',
+    icon: GiCarrot,
     fields: [
         {
             title: "Name",

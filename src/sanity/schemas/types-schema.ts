@@ -1,9 +1,12 @@
 // This is the schema definition for the "types" collection in Sanity
+
+import { TbListSearch } from "react-icons/tb";
+
 const types = {
   name: 'types',
   type: 'document',
-  title: 'Types',
-  icon: () => '🍅',
+  title: 'Recipe Types',
+  icon: TbListSearch,
   fields: [
     {
       name: 'type',
