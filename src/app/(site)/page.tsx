@@ -15,9 +15,11 @@ export default function Home() {
     <div className="mx-auto my-32 max-w-6xl py-6 sm:px-6 lg:px-8">
       <h1 className="mb-4 text-4xl font-extrabold leading-loose tracking-tight text-tertiary-950 md:text-5xl lg:text-6">
         Mekkemiddag.no
-        <span className="text-secondary-600 block"> Din guide til hverdagsmagi</span> 
-        på kjøkkenet
+       
         </h1>
+        <h2 className=' mb-8 text-2xl font-extrabold leading-loose tracking-tight text-tertiary-950 md:text-3xl lg:text-4'> 
+        <span className="text-secondary-600 block"> Din guide til hverdagsmagi</span> 
+        på kjøkkenet</h2>
       <div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <ImageCard
@@ -64,7 +66,7 @@ export default function Home() {
                 className='rounded-xl'
               />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-subgrid gap-4 md:col-span-2 h-[301px] shadow-md rounded-xl border border-transparent cursor-pointer relative">
+         <div className="grid grid-cols-1 md:grid-cols-subgrid gap-4 md:col-span-2 h-[301px] shadow-md rounded-xl border border-transparent cursor-pointer relative">
             <div className="col-start-1 md:col-start-4 ">
             <div className="relative z-10 inset-0 bg-black bg-opacity-10 w-full h-full rounded-xl"></div>
           <div className='z-20 px-8 pb-4 text-white absolute bottom-0 left-0 right-0'>
