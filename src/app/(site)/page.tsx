@@ -1,7 +1,7 @@
 import { BentoImageCard } from '@/components/ui-components/bentoImageCard';
-import { ActionButton } from '../../components/ui-components/ActionButton';
-import { H1 } from '../../components/typography/h1';
-import { SubheadingParagraph } from '../../components/typography/subheadingParagraph';
+import { ActionButton } from '@/components/ui-components/ActionButton';
+import { H1 } from '@/components/typography/h1';
+import { SubheadingParagraph } from '@/components/typography/subheadingParagraph';
 
 export default function Home() {
 
@@ -30,8 +30,8 @@ export default function Home() {
   ];
 
   return (
-    <div className="mx-auto my-32 max-w-6xl py-6 sm:px-6 lg:px-8">
-      <div className='grid md:grid-cols-2 gap-16'>
+    <div className="grid mx-auto my-24 max-w-6xl sm:px-6 lg:px-8">
+      <div className='grid items-center md:grid-cols-2 gap-16'>
       {/* heading start */}
       <div className='my-auto'>
         <H1>
