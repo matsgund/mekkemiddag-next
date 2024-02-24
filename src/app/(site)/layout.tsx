@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Nav from "@/components/layout/navbar";
-import Footer from "@/components/layout/footer";
+import {Nav, Footer} from "@/components/layout";
+import { BackgroundGrid } from "@/components/ui-components";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,12 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">   
-      <body className="flex flex-col min-h-screen bg-primary-100">
-        {/* Hack because of fixed position of navbar */}
+    <html lang="no">   
+      <body className="flex flex-col min-h-screen bg-gradient-to-r from-primary-50 to-primary-100">
+        {/* Hack to give the navbar some height */}
         <div className="h-[94px]"></div>
         <Nav/>
-          <main className="flex-grow px-2">
+          <main className="flex-grow z-30">
+            <BackgroundGrid />
             {children}
           </main>
         <Footer />
