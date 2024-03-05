@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="no">   
-      <body className="flex flex-col min-h-screen bg-gradient-to-r from-primary-50 to-primary-100">
+      <body className="flex flex-col min-h-screen bg-gradient-to-r from-primary-100 to-primary-200">
         {/* Hack to give the navbar some height */}
         <div className="h-[94px]"></div>
         <Nav/>

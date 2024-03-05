@@ -8,6 +8,8 @@ const navigation = [
   { name: 'Oppskrifter', href: '#', current: true },
   { name: 'Tips', href: '#', current: false },
   { name: 'Artikler', href: '#', current: false },
+  { name: 'Resturantopplevelser', href: '#', current: false },
+  { name: 'Vinanbefalinger', href: '#', current: false },
 ]
 
 export default function Nav() {

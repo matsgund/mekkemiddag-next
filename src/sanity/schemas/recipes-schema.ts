@@ -64,7 +64,7 @@ const recipes = {
                                     },
                                     {
                                         name: 'amount',
-                                        type: 'number',
+                                        type: 'string',
                                         title: 'Amount',
                                     },
                                     {
@@ -72,7 +72,7 @@ const recipes = {
                                         type: 'string',
                                         title: 'Unit',
                                         options: {
-                                            list: ["g","kg", "ss", "ts.", "dl", "cl", "l", "stk",],
+                                            list: ["g","kg", "ss", "ts.", "dl", "cl", "l", "stk", "neve","dryss","håndfull","pakke"],
                                           },
                                     },
                                     {
