@@ -21,7 +21,7 @@ const cards = [
 
 export function HeroSection() {
   return (
-    <div className="grid mx-auto my-8 md:my-24 max-w-6xl sm:px-6 lg:px-8">
+    <div className="grid mx-auto max-w-6xl h-screen md:mt-12 sm:px-6 lg:px-8">
         <div className='grid items-center md:grid-cols-2 gap-16'>
             <div className='my-auto'>
                 <H1>
