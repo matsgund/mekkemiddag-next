@@ -1,4 +1,4 @@
-import { HeroSection, LatestRecipes, ArticleSection, WineSection } from './components';
+import { HeroSection, LatestRecipes, ArticleSection, WineSection, ResturantSection } from './components';
 
 export default function HomePage() {
 
@@ -9,6 +9,7 @@ export default function HomePage() {
       <LatestRecipes />
       <ArticleSection />
       <WineSection />
+      <ResturantSection />
     </>
   );
 }
